@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="overview">Description</string>
+    <string name="content_title">content_title</string>
+    <string name="content_text">content_text</string>
+    <string name="subtext">subtext</string>
+    <string name="film_favorit">Favorite Movies</string>
+    <string name="tayangan">Movies</string>
+    <string name="serial">Tv Show</string>
+    <string name="serial_favorit">Favorite Tv Show</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Searh Movie</string>
+    <string name="search_hint_tv">Searcg Tv Show</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="delete">delete</string>
+    <string name="pengingat_harian">Reminder daily</string>
+    <string name="pengaturan">Settings</string>
+    <string name="pengingat_release">Reminder release</string>
+    <string name="pengaturan_pengingat">Setting reminder</string>
+    <string name="pengingat_rilis">reminder Release</string>
+    <string name="release_today">release today</string>
+    <string name="movie_release">Movie release</string>
+    <string name="btn_delete">Delete</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="favorite_btn">Favorite</string>
+    <string name="empty_text">empty text</string>
+    <string name="judul_release">Movies title</string>
+    <string name="text_release">release</string>
+
+    <string name="title_activity_notification">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="notifikasi_harian">dont forget to open the app</string>
+    <string name="Film_yang_rilis">Movies release Today</string>
+    <string name="notifikasi_rilis">Notification Release</string>
+    <string name="kembali_ke_aplikasi">dont forget to open the app</string>
+    <string name="film_yang_rilis">Movies release Today</string>
+    <string name="item_yang_dirilis">Movies release Today</string>
+</resources>

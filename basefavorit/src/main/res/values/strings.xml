@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BaseFavorit</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="overview">Deskripsi</string>
+    <string name="content_title">content_title</string>
+    <string name="content_text">content_text</string>
+    <string name="subtext">subtext</string>
+    <string name="film_favorit">Film Favorit</string>
+    <string name="tayangan">Tayangan</string>
+    <string name="serial">Serial</string>
+    <string name="serial_favorit">Serial Favorit</string>
+    <string name="search">Pencarian</string>
+    <string name="search_hint">search_hint</string>
+    <string name="search_hint_tv">Cari tv</string>>
+</resources>

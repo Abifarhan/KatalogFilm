@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.katalogfilm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <permission android:name="com.example.katalogfilm.READ_DATABASE" />
+    <permission android:name="com.example.katalogfilm.WRITE_DATABASE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Notification.NotificationActivity"
+            android:label="@string/title_activity_notification"></activity>
+
+        <receiver android:name=".Widget.ImageBannerWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/image_banner_widget_info" />
+        </receiver>
+        <receiver android:name=".Notification.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <activity android:name=".Detail.DetailActivityFavoriteTv" />
+        <activity android:name=".Detail.DetailActivityFavoriteMovie" />
+<!--        <activity android:name=".Reminder.SettingReminder" />-->
+
+<!--        <receiver-->
+<!--            android:name=".Reminder.ReminderDaily"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="true" />-->
+<!--        <receiver-->
+<!--            android:name=".Reminder.ReminderReleaseToday"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="true" />-->
+
+        <activity android:name=".Detail.DetailActivityTv" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Detail.DetailActivityMovie" />
+
+        <provider
+            android:name=".Provider.FavoriteProvider"
+            android:authorities="com.example.katalogfilm"
+            android:enabled="true"
+            android:exported="true"
+            android:readPermission="com.example.katalogfilm.READ_DATABASE"
+            android:writePermission="com.example.katalogfilm.WRITE_DATABASE" />
+
+        <service
+            android:name=".Widget.StackWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+    </application>
+
+</manifest>

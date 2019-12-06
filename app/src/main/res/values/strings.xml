@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">KatalogFilm</string>
+    <string name="title_home">Rumah</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifikasi</string>
+    <string name="overview">Deskripsi</string>
+    <string name="content_title">judul kontent</string>
+    <string name="content_text">teks kontent</string>
+    <string name="subtext">teks</string>
+    <string name="film_favorit">Film Favorit</string>
+    <string name="tayangan">Tayangan</string>
+    <string name="serial">Serial</string>
+    <string name="serial_favorit">Serial Favorit</string>
+    <string name="search">Pencarian</string>
+    <string name="search_hint">search_hint</string>
+    <string name="search_hint_tv">Cari tv</string>
+    <string name="appwidget_text">Contoh</string>
+    <string name="add_widget">Tambah widget</string>
+    <string name="delete">Hapus</string>
+    <string name="pengingat_harian">Pengingat Harian</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="pengingat_release">Pengingat Release</string>
+    <string name="pengaturan_pengingat">Pengaturan Pengingat</string>
+    <string name="pengingat_rilis">Pengingat Rilis</string>
+    <string name="release_today">rilis hari ini</string>
+    <string name="movie_release">Film Rilis</string>
+    <string name="btn_delete">Hapus</string>
+    <string name="description">Deskripsi</string>
+    <string name="title">Title</string>
+    <string name="favorite_btn">Favorite</string>
+    <string name="empty_text">teks kosong</string>
+    <string name="judul_release">Judul Film</string>
+    <string name="text_release">rilis</string>
+    <string name="title_activity_notification">Pengaturan</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">pesan</string>
+    <string name="sync_header">sinkronisasi</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="notifikasi_harian">Jangan Lupa Buka Aplikasi</string>
+    <string name="Film_yang_rilis">Film yang dirilis hari ini</string>
+    <string name="notifikasi_rilis">Notifikasi Rilis</string>
+    <string name="kembali_ke_aplikasi">Jangan Lupa Buka aplikasi hari ini</string>
+    <string name="film_yang_rilis">Film yang rilis hari ini</string>
+    <string name="item_yang_dirilis">Film yang rilis hari ini</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/movie_menu"
+        android:icon="@drawable/ic_movie_black"
+        android:title="@string/tayangan"/>
+
+    <item
+        android:id="@+id/fav_movie"
+        android:icon="@drawable/ic_favorite_red"
+        android:title="@string/film_favorit" />
+
+    <item
+        android:id="@+id/tv_menu"
+        android:icon="@drawable/ic_live_tv_black"
+        android:title="@string/serial"/>
+
+    <item
+        android:id="@+id/fav_tv"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="@string/serial_favorit"/>
+
+</menu>
